@@ -66,30 +66,6 @@ export default function Projects() {
                     </motion.span>
                   ))}
                 </div>
-                <div style={{ display: "flex", gap: "0.75rem", marginTop: "1rem" }}>
-                  <motion.a
-                    href={project.github}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="project-link"
-                    style={{ textDecoration: "none", fontWeight: 600, color: "var(--text)" }}
-                    whileHover={{ scale: 1.1, color: "var(--primary)" }}
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    Code
-                  </motion.a>
-                  <motion.a
-                    href={project.demo}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="project-link"
-                    style={{ textDecoration: "none", fontWeight: 600, color: "var(--text)" }}
-                    whileHover={{ scale: 1.1, color: "var(--primary)" }}
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    Demo
-                  </motion.a>
-                </div>
               </motion.article>
             </Tilt>
           ))}

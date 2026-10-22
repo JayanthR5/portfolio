@@ -16,11 +16,11 @@ export const portfolioData = {
       "Final year Computer Science and Engineering student specializing in Artificial Intelligence and Machine Learning. Experienced with Java, SQL, Python, and web application development, with a focus on practical problem solving, teamwork, and delivery.",
   },
   skills: {
-    languages: ["Python", "Java", "SQL","C"],
+    languages: ["Python", "Java", "SQL", "C"],
     webTechnologies: ["HTML5", "CSS3", "JavaScript", "React.js", "Express.js", "Node.js"],
     database: ["PostgreSQL", "MySQL"],
     ai: ["TensorFlow", "Scikit-Learn", "OpenCV"],
-    tools: ["Git", "GitHub", "VS Code", "Postman","Jira"],
+    tools: ["Git", "GitHub", "VS Code", "Postman", "Jira"],
   },
   experience: [
     {
@@ -59,17 +59,17 @@ export const portfolioData = {
   certifications: [
     "IBM SkillsBuild AI & BI Internship",
     "NPTEL Smart Cities",
-    "Arduino Bootcamp: Learning Through Projects-Coursera ",
-    "software development lifecycle-Coursera",
+    "Arduino Bootcamp: Learning Through Projects - Coursera",
+    "Software Development Lifecycle - Coursera",
   ],
   leadership: [
     "Vice President, IEEE Computational Intelligence Society",
     "1st Runner-up, PathCraft Gen AI Webpage Architect Challenge",
-    "Organized a data-thon event",
+    "Organized a datathon event",
     
   ],
   achievements: [
     "NPTEL Smart Cities | Elite + Gold | 91%",
-    "1st Runner -up of pathcraft-the gen ai webpage architect challenge ",
+    "1st Runner-up of the PathCraft Gen AI Webpage Architect Challenge",
   ],
 } as const;
