@@ -13,14 +13,14 @@ export const portfolioData = {
   },
   about: {
     description:
-      "Pre-final year Computer Science and Engineering student specializing in Artificial Intelligence and Machine Learning. Experienced with Java, SQL, Python, and web application development, with a focus on practical problem solving, teamwork, and delivery.",
+      "Final year Computer Science and Engineering student specializing in Artificial Intelligence and Machine Learning. Experienced with Java, SQL, Python, and web application development, with a focus on practical problem solving, teamwork, and delivery.",
   },
   skills: {
-    languages: ["Python", "Java", "SQL"],
+    languages: ["Python", "Java", "SQL","C"],
     webTechnologies: ["HTML5", "CSS3", "JavaScript", "React.js", "Express.js", "Node.js"],
-    database: ["MongoDB", "MySQL"],
+    database: ["PostgreSQL", "MySQL"],
     ai: ["TensorFlow", "Scikit-Learn", "OpenCV"],
-    tools: ["Git", "GitHub", "VS Code", "Postman"],
+    tools: ["Git", "GitHub", "VS Code", "Postman","Jira"],
   },
   experience: [
     {
@@ -33,24 +33,34 @@ export const portfolioData = {
   ],
   projects: [
     {
-      title: "AgriQCert",
-      tech: ["React", "Node.js", "MongoDB"],
-      description: "Digital agricultural quality certification platform.",
-      github: "#",
-      demo: "#",
+  title: "Inventory Management System",
+  tech: ["React", "Node.js", "MongoDB"],
+  description: "Full-stack inventory management system for tracking products, managing stock levels, and monitoring inventory operations.",
+  
+  
     },
+
     {
       title: "Face Expression Detection",
       tech: ["Python", "OpenCV", "TensorFlow"],
       description: "Real-time facial emotion detection system.",
-      github: "#",
-      demo: "#",
+      
+      
     },
+
+    {
+  title: "Rice Variety Classification",
+  tech: ["React", "FastAPI", "Python", "TensorFlow", "PostgreSQL"],
+  description: "AI-powered rice variety classification system using MobileNetV2 transfer learning to identify five rice varieties with high accuracy.",
+    
+    },
+
   ],
   certifications: [
     "IBM SkillsBuild AI & BI Internship",
     "NPTEL Smart Cities",
     "Arduino Bootcamp: Learning Through Projects-Coursera ",
+    "software development lifecycle-Coursera",
   ],
   leadership: [
     "Vice President, IEEE Computational Intelligence Society",

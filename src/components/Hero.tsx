@@ -110,7 +110,7 @@ export default function Hero() {
           </motion.div>
 
           <motion.p variants={itemVariants}>
-            Pre-final year CSE student focused on AI, ML, and practical web applications.
+            Final year CSE student focused on AI, ML, and practical web applications.
           </motion.p>
 
           <motion.div className="hero-tags" variants={itemVariants}>
